@@ -1,2 +1,0 @@
-# DisclosableInterestPOCforFitchRatings
-Created with CodeSandbox
