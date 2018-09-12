@@ -22,3 +22,33 @@
 .sec-2 {
   border-right: 1px solid black;
 }
+
+.featured-component {
+  display: inline-block;
+  position: relative;
+  border: 2px solid #aaa;
+  margin: 0 4% 40px;
+  width: 92%;
+  background-color: #fff;
+}
+
+.component-heading {
+  background: #6a747c;
+  padding: 8px;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 700;
+  margin-bottom: 0;
+}
+
+.detailList {
+  list-style: none;
+  line-height: 1.5em;
+  padding-left: 10px;
+  font-size: 16px;
+}
+
+.detailListItems {
+  margin: 7px 15px;
+  font-size: 14px;
+}

@@ -1,6 +1,9 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import NonEu from "./non-eu-disqualifying-component";
+import EuDisclosable from "./eu-disclosable-components";
+import EuDisqualifying from "./eu-disqualifying-component";
+import NonEuDisclosable from "./non-eu-disclosable-component";
 
 import "./styles.css";
 
@@ -25,7 +28,7 @@ function App() {
               </div>
               <div className="col-lg-12 sec-2">
                 <p>Some Text : 2</p>
-                <div>COMPONENT</div>
+                <EuDisqualifying />
               </div>
             </div>
           </div>
@@ -34,11 +37,11 @@ function App() {
             <div className="row">
               <div className="col-lg-12 sec-3">
                 <p>Some Text : 3</p>
-                <NonEu data={"COMPONENT"} />
+                <NonEuDisclosable />
               </div>
               <div className="col-lg-12 sec-4">
                 <p>Some Text : 4</p>
-                <div>COMPONENT</div>
+                <EuDisclosable />
               </div>
             </div>
           </div>
