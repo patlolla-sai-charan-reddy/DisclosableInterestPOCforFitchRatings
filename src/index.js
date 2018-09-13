@@ -24,7 +24,7 @@ function App() {
             <div className="row">
               <div className="col-lg-12 sec-1">
                 <p class="intro">Some Text : 1</p>
-                <NonEu data={"COMPONENT"} />
+                <NonEu />
               </div>
               <div className="col-lg-12 sec-2">
                 <p class="intro">Some Text : 2</p>

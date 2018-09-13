@@ -1,3 +1,5 @@
+/* centralised ajax call */
+
 function makeCall(url, sessionToken, responseType) {
   return new Promise((resolve, reject) => {
     const req = new XMLHttpRequest();
@@ -9,7 +11,7 @@ function makeCall(url, sessionToken, responseType) {
     req.onload = () => {
       if (req.status === 200) {
         if (typeof req.response === "string") {
-          //IE
+          // IE
           resolve(JSON.parse(req.response));
         } else {
           resolve(req.response);
