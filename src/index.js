@@ -23,11 +23,23 @@ function App() {
           <div className="col-lg-6">
             <div className="row">
               <div className="col-lg-12 sec-1">
-                <p class="intro">Some Text : 1</p>
+                <p class="intro">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. In
+                  ultrices dictum urna, eu facilisis risus vehicula vel. Lorem
+                  ipsum dolor sit amet, consectetur adipiscing elit. In ultrices
+                  dictum urna, eu facilisis risus vehicula vel.
+                </p>
+                {/* Section 1 */}
                 <NonEu />
               </div>
               <div className="col-lg-12 sec-2">
-                <p class="intro">Some Text : 2</p>
+                <p class="intro">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. In
+                  ultrices dictum urna, eu facilisis risus vehicula vel. Lorem
+                  ipsum dolor sit amet, consectetur adipiscing elit. In ultrices
+                  dictum urna, eu facilisis risus vehicula vel.
+                </p>
+                {/* Section 2 */}
                 <EuDisqualifying />
               </div>
             </div>
@@ -36,11 +48,23 @@ function App() {
           <div className="col-lg-6">
             <div className="row">
               <div className="col-lg-12 sec-3">
-                <p class="intro">Some Text : 3</p>
+                <p class="intro">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. In
+                  ultrices dictum urna, eu facilisis risus vehicula vel. Lorem
+                  ipsum dolor sit amet, consectetur adipiscing elit. In ultrices
+                  dictum urna, eu facilisis risus vehicula vel.
+                </p>
+                {/* Section 3 */}
                 <NonEuDisclosable />
               </div>
               <div className="col-lg-12 sec-4">
-                <p class="intro">Some Text : 4</p>
+                {/* Section 4 */}
+                <p class="intro">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. In
+                  ultrices dictum urna, eu facilisis risus vehicula vel. Lorem
+                  ipsum dolor sit amet, consectetur adipiscing elit. In ultrices
+                  dictum urna, eu facilisis risus vehicula vel.
+                </p>
                 <EuDisclosable />
               </div>
             </div>
