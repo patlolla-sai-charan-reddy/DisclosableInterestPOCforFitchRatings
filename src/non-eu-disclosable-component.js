@@ -25,7 +25,7 @@ class NonEuDisclosable extends React.Component {
       <div className="featured-component">
         <p className="component-heading">EU Disqualitying Interests</p>
         <ul className="detailList">
-          {(() => {
+          {/*(() => {
             return this.state.data.map(link => {
               return (
                 <div>
@@ -33,7 +33,8 @@ class NonEuDisclosable extends React.Component {
                 </div>
               );
             });
-          })()}
+          })()*/}
+          <li className="detailListItems">No Issuers or Agents to disclose</li>
         </ul>
       </div>
     );
