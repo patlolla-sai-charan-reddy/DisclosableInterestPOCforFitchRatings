@@ -23,7 +23,7 @@ class NonEuDisclosable extends React.Component {
   render() {
     return (
       <div className="featured-component">
-        <p className="component-heading">EU Disqualitying Interests</p>
+        <p className="component-heading">EU Disqualifying Interests</p>
         <ul className="detailList">
           {/*(() => {
             return this.state.data.map(link => {

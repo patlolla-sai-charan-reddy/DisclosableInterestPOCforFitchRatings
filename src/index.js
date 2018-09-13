@@ -27,7 +27,7 @@ function App() {
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit. In
                   ultrices dictum urna, eu facilisis risus vehicula vel. Lorem
                   ipsum dolor sit amet, consectetur adipiscing elit. In ultrices
-                  dictum urna, eu facilisis risus vehicula vel.
+                  dictum urna, eu facilisis risus vehicula vel - 1.
                 </p>
                 {/* Section 1 */}
                 <NonEu />
@@ -37,7 +37,7 @@ function App() {
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit. In
                   ultrices dictum urna, eu facilisis risus vehicula vel. Lorem
                   ipsum dolor sit amet, consectetur adipiscing elit. In ultrices
-                  dictum urna, eu facilisis risus vehicula vel.
+                  dictum urna, eu facilisis risus vehicula vel - 2.
                 </p>
                 {/* Section 2 */}
                 <EuDisqualifying />
