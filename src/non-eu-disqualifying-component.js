@@ -9,7 +9,7 @@ class NonEu extends React.Component {
     };
   }
   componentWillMount() {
-    makeCall("https://5b994c33197ce5001429eebb.mockapi.io/eu")
+    makeCall("https://5b994c33197ce5001429eebb.mockapi.io/ef")
       .then(result => {
         console.log(result);
         this.setState({
