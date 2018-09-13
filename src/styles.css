@@ -16,11 +16,13 @@
 .sec-1,
 .sec-3 {
   border-bottom: 1px solid black;
+  height: 360px;
 }
 
 .sec-1,
 .sec-2 {
   border-right: 1px solid black;
+  height: 360px;
 }
 
 .featured-component {
@@ -51,4 +53,8 @@
 .detailListItems {
   margin: 7px 15px;
   font-size: 14px;
+}
+
+.intro {
+  padding-top: 10px;
 }
