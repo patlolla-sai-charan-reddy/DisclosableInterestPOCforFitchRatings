@@ -15,13 +15,11 @@
 
 .sec-1,
 .sec-3 {
-  border-bottom: 1px solid black;
   height: 370px;
 }
 
 .sec-1,
 .sec-2 {
-  border-right: 1px solid black;
   height: 370px;
 }
 
