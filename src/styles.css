@@ -13,16 +13,6 @@
   border: 1px solid black;
 }
 
-.sec-1,
-.sec-3 {
-  height: 370px;
-}
-
-.sec-1,
-.sec-2 {
-  height: 370px;
-}
-
 .featured-component {
   display: inline-block;
   position: relative;
