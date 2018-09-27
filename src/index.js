@@ -7,7 +7,7 @@ import NonEuDisclosable from "./non-eu-disclosable-component";
 
 import "./styles.css";
 
-function App() {
+function Disclose() {
   return (
     <div className="App row">
       <p className="legalText col-lg-12">
@@ -40,7 +40,7 @@ function App() {
                   dictum urna, eu facilisis risus vehicula vel - 2.
                 </p>
                 {/* Section 2 */}
-                <EuDisqualifying />
+                <NonEuDisclosable />
               </div>
             </div>
           </div>
@@ -55,7 +55,8 @@ function App() {
                   dictum urna, eu facilisis risus vehicula vel.
                 </p>
                 {/* Section 3 */}
-                <NonEuDisclosable />
+
+                <EuDisqualifying />
               </div>
               <div className="col-lg-12 sec-4">
                 {/* Section 4 */}
@@ -75,4 +76,4 @@ function App() {
   );
 }
 
-ReactDOM.render(<App />, document.getElementById("root"));
+ReactDOM.render(<Disclose />, document.getElementById("root"));
