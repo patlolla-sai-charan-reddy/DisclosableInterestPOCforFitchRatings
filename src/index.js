@@ -7,7 +7,7 @@ import NonEuDisclosable from "./non-eu-disclosable-component";
 
 import "./styles.css";
 
-function App() {
+function Disclose() {
   return (
     <div className="App row">
       <p className="legalText col-lg-12">
@@ -76,4 +76,4 @@ function App() {
   );
 }
 
-ReactDOM.render(<App />, document.getElementById("root"));
+ReactDOM.render(<Disclose />, document.getElementById("root"));
