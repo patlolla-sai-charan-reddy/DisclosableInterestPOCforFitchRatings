@@ -40,7 +40,7 @@ function App() {
                   dictum urna, eu facilisis risus vehicula vel - 2.
                 </p>
                 {/* Section 2 */}
-                <EuDisqualifying />
+                <NonEuDisclosable />
               </div>
             </div>
           </div>
@@ -55,17 +55,18 @@ function App() {
                   dictum urna, eu facilisis risus vehicula vel.
                 </p>
                 {/* Section 3 */}
-                <NonEuDisclosable />
+
+                <EuDisqualifying />
               </div>
               <div className="col-lg-12 sec-4">
                 {/* Section 4 */}
-                <p class="intro">
+                {/*<p class="intro">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit. In
                   ultrices dictum urna, eu facilisis risus vehicula vel. Lorem
                   ipsum dolor sit amet, consectetur adipiscing elit. In ultrices
                   dictum urna, eu facilisis risus vehicula vel.
                 </p>
-                <EuDisclosable />
+                <EuDisclosable />*/}
               </div>
             </div>
           </div>
