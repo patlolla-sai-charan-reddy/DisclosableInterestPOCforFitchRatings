@@ -60,13 +60,13 @@ function Disclose() {
               </div>
               <div className="col-lg-12 sec-4">
                 {/* Section 4 */}
-                <p class="intro">
+                {/*<p class="intro">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit. In
                   ultrices dictum urna, eu facilisis risus vehicula vel. Lorem
                   ipsum dolor sit amet, consectetur adipiscing elit. In ultrices
                   dictum urna, eu facilisis risus vehicula vel.
                 </p>
-                <EuDisclosable />
+                <EuDisclosable />*/}
               </div>
             </div>
           </div>
