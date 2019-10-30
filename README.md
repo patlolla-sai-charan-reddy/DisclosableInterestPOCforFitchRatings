@@ -1,4 +1,4 @@
 # DisclosableInterestPOCforFitchRatings
-Created with CodeSandbox
+Created with CodeSandbox.
 
 POC for the Disclosable Interests POC for Fitch Ratings.
