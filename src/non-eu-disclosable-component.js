@@ -2,9 +2,8 @@ import React from "react";
 import makeCall from "./ajaxCall";
 
 class NonEuDisclosable extends React.Component {
-  constructor() {
-    super();
-    
+  constructor(props) {
+    super(props);
     this.state = {
       data: []
     };
